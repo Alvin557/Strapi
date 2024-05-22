@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "CommonJS",
+    "checkJs": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": true
+  }
+}

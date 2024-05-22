@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "First_Name": {
+      "type": "string"
+    },
+    "Last_Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Subject": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    }
+  }
+}

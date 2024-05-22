@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stockists",
+  "info": {
+    "singularName": "stockist",
+    "pluralName": "stockists",
+    "displayName": "Stockist"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Stock_Logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
